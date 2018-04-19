@@ -1,0 +1,25 @@
+<?php 
+	include_once 'header.php';
+?>
+
+<section class="main-container">
+	<div class="main-wrapper">
+		<h2>Signup</h2>	
+		<form class="signup-form">
+			<ul style="list-style-type:none">
+  <li><input type="text" name="first" placeholder="Firstname"></li>
+  <li><input type="text" name="last" placeholder="Lastname"></li>
+  <li><input type="text" name="email" placeholder="E-mail"></li>
+  <li><input type="text" name="uid" placeholder="Username"> </li>
+  <li><input type="password" name="pwd" placeholder="Password">  </li>
+  <li><button type="submit" name="submit">Sign Up</button></li>
+</ul> 
+			
+			 
+		</form>
+	</div>
+</section>
+
+<?php 
+	include_once 'footer.php';
+?>
