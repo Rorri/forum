@@ -215,10 +215,11 @@ header .nav-login a {
 
 .signup-form button {
     display: block;
+    margin: 0 auto;
     width: 30%;
     height: 40px;
     border: none;
-    background-color: #222;
+    background-color: #808080;
     font-family: arial;
     font-size: 16px;
     color: #111;
@@ -226,5 +227,5 @@ header .nav-login a {
 }
 
 .signup-form button:hover {
-    background-color: #111;
+    background-color: #777777;
 }
