@@ -4,12 +4,16 @@
 
 <section class="main-container">
 	<div class="main-wrapper">
-		<h2>Home</h2>	
+		<h2>Home</h2>
 		<?php
 			if (isset($_SESSION['u_id'])) {
 				echo "Welcome!";
+				echo nl2br ("\n");
+				echo nl2br ("\n");
+				echo '<a href="postmaker.php"><button>Create post</button></a>';
+
 			}
-		?> 
+		?>
 	</div>
 </section>
 
